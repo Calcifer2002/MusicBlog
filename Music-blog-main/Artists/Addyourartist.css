@@ -2,8 +2,7 @@
 * {box-sizing: border-box;}
     
     body{ 
-      margin: 0;
-     
+      margin: 0;  
       background-image: url("homeband2.0.jpg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -12,13 +11,10 @@
       background-position: center;
       background-color: rgb(14, 20, 32);
     }
-    
-    
     h1{
       font-family:fantasy;
       text-align: center;
       border: none;
-      
       background-color: honeydew;
       margin-left: 25%;
       margin-right: 25%;
@@ -27,8 +23,7 @@
       border-style: double;
       border-color: black;
       box-shadow: 2px 2px 2px 2px black;
-    }
-
+     }    
     .form{
       background-color:rgb(243,66,66,0.8);
       margin-top: 0%;
@@ -36,12 +31,9 @@
       margin-right: 25%;
       border-style: groove;
       padding:1%;
-      box-shadow: 2px 2px 2px 2px black;
-      
+      box-shadow: 2px 2px 2px 2px black;  
     }
-
     .B{
-      
       font-size: 2vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 0%;
@@ -49,18 +41,14 @@
       color: aliceblue;
       padding-bottom: 1%; 
     }
-    
     .Ba{
       font-size: 1.5vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 30%;
       margin-left: 44%;
       color: aliceblue;
-      background-color: rgb(0,0,0,0.6);
-      
-    
-    }
-
+      background-color: rgb(0,0,0,0.6)    /* ; not needed if style component last*/
+     }
     .D{
       font-size: 2vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -69,7 +57,6 @@
       color: aliceblue;
       margin-top: 5%;
     }
-
     .Da{
       font-size: 1.5vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -77,19 +64,13 @@
       margin-left: 17%;
       color: aliceblue;
       background-color: rgb(0,0,0,0.6)
-    
     }
-    
     .header {
           overflow: hidden;
-          background-color: black;
-          
+          background-color: black; 
         }
-    
     .header a {
-   
     display: block;
-    
     text-align: center;
     padding: 18px;
     float: left;
@@ -99,26 +80,17 @@
     font-size: 1.5vw;
     line-height: 300%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 7%;
-    
+    margin-left: 7%; 
     }
-    
-    
-    
-    
     .header a:hover {
       color:burlywood;
       border-bottom:4px solid red;
-      
-    }
-    
+    } 
     .C{font-size: 2vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 30%;
       margin-left: 39%;
       color: aliceblue;
-     
-    
     }
     .Ca{
       font-size: 1.5vw;
@@ -127,9 +99,7 @@
       margin-left: 34%;
       color: aliceblue;
       background-color: rgb(0,0,0,0.6)
-    
     }
-    
     .submit{
       font-size: 2vw;
       font-family: fantasy;
@@ -138,13 +108,10 @@
       margin-top:5%;
       margin-left:43%;
     }
-    
-    
     .header .icon {
       display: none;
       margin-right:9%;
     }
-    
     footer {
           background-color: white;
           color: black;
@@ -154,49 +121,45 @@
           padding-bottom: 0.5%;
           font-size: 1vw;
         }
-    
-    
+
+    /*RESPONSIVE PART*/
+
     @media screen and (min-width: 801px) and (max-width: 1100px){ 
       .header a:not(:first-child) {display: none;}
       .header a.icon {
         float: right;
         display: block;
       }
-      
       .header a {
         font-size:4vw;
         padding:0.5%;
         margin-top:-2%;
-      }
+      } 
      body{
-       height:100vh;
-       
-     }
+       height:100vh;   
+     }   
      h1{
        font-size:3.7vw;
        margin-left:25%;
        margin-right:25%;
       margin-top:30%; }
-      
       footer{display: none;
-        
       }
       .form{
         width:50%;
-      }
+      } 
       .B{
         font-size:3.3vw;
         margin-left:20%;
-        
-      }
+      }  
       .Ba{
         font-size:3vw;
         margin-left:37%;
-      }
+      } 
       .C{
         font-size:3.3vw;
         margin-left:30%;
-      }
+      }  
       .Ca{
         font-size:3vw;
         margin-left:19%;
@@ -208,13 +171,13 @@
       }
       .Da{
         margin-left:18%;
-      }
+      } 
       .submit{
         font-size:3vw;
         margin-left:41%;
       }
     }
-    
+
     @media screen and (min-width: 801px) and (max-width: 1100px) {
       .header.drop {position: relative;}
       .header.drop .icon {
@@ -227,8 +190,6 @@
         display: block;
         text-align: left;
       }
-    
-    
     }
     
     
@@ -239,21 +200,20 @@
         display: block;
         margin-left:2%;
       }
-        .header a{
+      .header a{
             font-size: 4vw;
             padding:0.5%;
             margin-top:-2%;
-            margin-left:4%;
-            
+            margin-left:4%;  
         }
-        body{
+     body{
             height:100vh;
         }
-        h1{
+     h1{
           font-size:2.7vh;
           margin-top:25%;
         }
-       .B{
+     .B{
          font-size:2.4vh;
          margin-left:21.5%;
     }
@@ -274,15 +234,14 @@
       margin-left:25.5%;
       margin-right:0%;
     }
-      
      .Da{
        font-size:1.5vh;
        margin-left:7%;
      } 
-      footer{
+     footer{
         margin-top:33%;
       }
-      .submit{
+     .submit{
         font-size:2vh;
         margin-left:40%;
       }
@@ -299,40 +258,33 @@
           float: none;
           display: block;
           text-align: left;
-        
-       
       }
-      
-      
-          
-      }
+     }
+
       @media screen and (min-width : 539px) and (max-width : 599px){ 
         .header a:not(:first-child) {display: none;}
       .header a.icon {
         float: right;
         display: block;
-        
       }
       .header a{
           font-size: 4vw;
           padding:0.5%;
           margin-top:-2%;
-          
       }
       body{
           height:140vh;
           overflow-x:hidden;
       }
-    
       h1{
           font-size:2.7vh;
           margin-top:25%;
         }
-       .B{
+      .B{
          font-size:2.4vh;
          margin-left:21.5%;
     }
-    .Ba{
+     .Ba{
       font-size:2vh;
       margin-left:36%;
     }  
@@ -350,22 +302,18 @@
       margin-right:0%;
     }
       
-     .Da{
+    .Da{
        font-size:1.5vh;
        margin-left:5.5%;
      } 
-      footer{
+     footer{
         margin-top:31%;
       }
-      .submit{
+     .submit{
         font-size:2vh;
         margin-left:40%;
-      }
-        
-      }
-    
-    
-    
+      }  
+      }    
     
     @media screen and (min-width : 539px) and (max-width : 599px){
         .header.drop {position:relative;}
@@ -378,11 +326,7 @@
         float: none;
         display: block;
         text-align: left;
-      
-     
-    }
-    
-    
+    }  
     }
       
     @media screen and (min-width : 413px) and (max-width : 538px){ 
@@ -390,27 +334,23 @@
       .header a.icon {
         float: right;
         display: block;
-        
       }
       .header a{
           font-size: 4vw;
           padding:0.5%;
-          margin-top:-2%;
-          
+          margin-top:-2%;    
       }
-      
       body{
           height:100vh;
           overflow-x:hidden;
       }
-    
       h1{
           font-size:2.7vh;
           margin-top:35%;
           width:70%;
           margin-left:15%
         }
-       .B{
+      .B{
          font-size:2.4vh;
          margin-left:22%;
     }
@@ -435,16 +375,11 @@
       margin-left:26%;
       margin-right:0%;
     }
-      
      .Da{
        font-size:1.5vh;
        margin-left:8%;
      } 
-     
-    
-    
-    
-      .submit{
+     .submit{
         font-size:2vh;
         margin-left:40%;
       }
@@ -453,9 +388,6 @@
         margin-top:45.5%;
     }
     }
-    
-    
-    
     
     @media screen and (min-width : 413px) and (max-width : 538px){
         .header.drop {position:relative;}
@@ -468,40 +400,31 @@
         float: none;
         display: block;
         text-align: left;
+    }  
+    }
       
-     
-    }
-    
-    
-        
-    }
-     
-    
     @media screen and (min-width : 402px) and (max-width : 412px) { 
         .header a:not(:first-child) {display: none;}
       .header a.icon {
         float: right;
         display: block;
-        
       }
       .header a{
           font-size: 4vw;
           padding:2%;
           margin-top:-2%;
-          
       }
       body{
           height:100vh;
           overflow-x:hidden;
       }
-    
       h1{
           font-size:2.7vh;
           margin-top:45%;
           width:80%;
           margin-left:10%
         }
-       .B{
+      .B{
          font-size:2.4vh;
          margin-left:23%;
     }
@@ -531,10 +454,6 @@
        font-size:1.5vh;
        margin-left:9%;
      } 
-     
-    
-    
-    
       .submit{
         font-size:2vh;
         margin-left:40%;
@@ -543,9 +462,6 @@
         display:none;
     }
     }
-    
-    
-    
     
     @media screen and (min-width : 402px) and (max-width : 412px){
         .header.drop {position:relative;}
@@ -558,12 +474,7 @@
         float: none;
         display: block;
         text-align: left;
-      
-     
-    }
-    
-    
-        
+    }  
     }
     
     @media screen and (min-width : 373px) and (max-width : 399px){ 
@@ -571,28 +482,24 @@
       .header a.icon {
         float: right;
         display: block;
-        
       }
       .header a{
           font-size: 4vw;
           padding:0.5%;
           margin-top:-2%;
-          
       }
-      
       body{
           height:100vh;
           overflow-x:hidden;
           overflow-y:hidden;
       }
-    
       h1{
           font-size:2.7vh;
           margin-top:45%;
           width:80%;
           margin-left:10%
         }
-       .B{
+     .B{
          font-size:2.4vh;
          margin-left:21%;
     }
@@ -617,15 +524,10 @@
       margin-left:25%;
       margin-right:0%;
     }
-      
      .Da{
        font-size:1.5vh;
        margin-left:6%;
      } 
-     
-    
-    
-    
       .submit{
         font-size:2vh;
         margin-left:39%;
@@ -633,10 +535,8 @@
     footer{
         display: none;
     }
-    
-    
-    
     }
+
     @media screen and (min-width : 373px) and (max-width : 399px){
         .header.drop {position:relative;}
       .header.drop .icon {
@@ -649,21 +549,17 @@
         display: block;
         text-align: left;
       }
-    
-    
     }
     @media screen and (min-width : 339px) and (max-width : 361px){ 
         .header a:not(:first-child) {display: none;}
       .header a.icon {
         float: right;
         display: block;
-        
       }
       .header a{
           font-size: 4.5vw;
           padding:0.5%;
           margin-top:-2%;
-          
       }
       body{
           height:180vh;
@@ -672,47 +568,41 @@
           height:100vh;
           overflow-x:hidden;
       }
-    
       h1{
           font-size:2.7vh;
           margin-top:40%;
           width:80%;
           margin-left:10%
         }
-       .B{
+      .B{
          font-size:2.4vh;
          margin-left:26%;
     }
-    .form{
+      .form{
       width:80%;
       margin-left:10%;
     }
-    .Ba{
+      .Ba{
       font-size:2vh;
       margin-left:38%;
     }  
-    .C{
+      .C{
          font-size:2.4vh;
          margin-left:34.5%;
     }
-    .Ca{
+      .Ca{
       font-size:2vh;
       margin-left:25.5%;
     }
-    .D{
+      .D{
       font-size:2.4vh;
       margin-left:30%;
       margin-right:0%;
     }
-      
-     .Da{
+      .Da{
        font-size:1.5vh;
        margin-left:13%;
      } 
-     
-    
-    
-    
       .submit{
         font-size:2vh;
         margin-left:40%;
@@ -721,11 +611,6 @@
         margin-top:40%;
       }
     }
-    
-    
-    
-    
-    
     
     @media screen and (min-width : 339px) and (max-width : 361px){
         .header.drop {position:relative;}
@@ -738,35 +623,25 @@
         float: none;
         display: block;
         text-align: left;
-      
-     
+    }   
     }
     
-    
-        
-    }
-    
-    @media screen and (min-width : 281px) and (max-width : 338px){ 
-        
+    @media screen and (min-width : 281px) and (max-width : 338px){  
         .header a:not(:first-child) {display: none;}
       .header a.icon {
         float: right;
         display: block;
-        
       }
-        
       .header a{
           font-size: 3.5vw;
           padding:0.5%;
           margin-top:-2%;
           margin-left:2.6%;
-          
       }
       body{
           height:100vh;
           overflow-x:hidden;
       }
-    
       h1{
           font-size:2.7vh;
           margin-top:35%;
@@ -777,49 +652,41 @@
          font-size:2.4vh;
          margin-left:22%;
     }
-    .form{
+       .form{
       width:70%;
       margin-left:13%;
     }
-    .Ba{
+       .Ba{
       font-size:2vh;
       margin-left:36%;
     }  
-    .C{
+       .C{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-    .Ca{
+       .Ca{
       font-size:2vh;
       margin-left:22%;
     }
-    .D{
+       .D{
       font-size:2.4vh;
       margin-left:26%;
       margin-right:0%;
     }
-      
-     .Da{
+       .Da{
        font-size:1.5vh;
        margin-left:7%;
      } 
-     
-    
-    
-    
       .submit{
         font-size:2vh;
         margin-left:40%;
       }
-    footer{
+      footer{
         font-size:1vw;
         margin-top:42%;
     }
     }
-    
-    
-    
-    
+   
     @media screen and (min-width : 281px) and (max-width : 338px){
         .header.drop {position:relative;}
       .header.drop .icon {
@@ -831,18 +698,14 @@
         float: none;
         display: block;
         text-align: left;
-      
-     
     }
     }
     
-    @media screen and (min-width : 100px) and (max-width : 281px){ 
-        
+    @media screen and (min-width : 100px) and (max-width : 281px){    
       .header a:not(:first-child) {display: none;}
       .header a.icon {
         float: right;
         display: block;
-        
       }
       .header{
         width:100%;
@@ -873,28 +736,27 @@
           width:90%;
           margin-left:4.7%;
         }
-       .B{
+        .B{
          font-size:2.4vh;
          margin-left:21.5%;
     }
-    .Ba{
+       .Ba{
       font-size:2vh;
       margin-left:36%;
     }  
-    .C{
+       .C{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-    .Ca{
+      .Ca{
       font-size:2vh;
       margin-left:21.5%;
     }
-    .D{
+      .D{
       font-size:2.4vh;
       margin-left:25.5%;
       margin-right:0%;
     }
-      
      .Da{
        font-size:1.5vh;
        margin-left:7%;
@@ -902,11 +764,10 @@
       footer{
         margin-top:100%;
       }
-      .submit{
+     .submit{
         font-size:2vh;
         margin-left:40%;
       }
-    
       } 
     
       @media screen and (min-width : 100px) and (max-width : 281px){
@@ -920,8 +781,6 @@
         float: none;
         display: block;
         text-align: left;
-      
-     
     }
     }
     

@@ -33,7 +33,7 @@
       padding:1%;
       box-shadow: 2px 2px 2px 2px black;  
     }
-    .B{
+    .languages{
       font-size: 2vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 0%;
@@ -41,7 +41,7 @@
       color: aliceblue;
       padding-bottom: 1%; 
     }
-    .Ba{
+    .languages-options{
       font-size: 1.5vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 30%;
@@ -49,7 +49,7 @@
       color: aliceblue;
       background-color: rgb(0,0,0,0.6)    /* ; not needed if style component last*/
      }
-    .D{
+    .description{
       font-size: 2vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 30%;
@@ -57,7 +57,7 @@
       color: aliceblue;
       margin-top: 5%;
     }
-    .Da{
+    .description-box{
       font-size: 1.5vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 30%;
@@ -86,13 +86,13 @@
       color:burlywood;
       border-bottom:4px solid red;
     } 
-    .C{font-size: 2vw;
+    .Name{font-size: 2vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 30%;
       margin-left: 39%;
       color: aliceblue;
     }
-    .Ca{
+    .Name-box{
       font-size: 1.5vw;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-right: 30%;
@@ -148,28 +148,28 @@
       .form{
         width:50%;
       } 
-      .B{
+      .languages{
         font-size:3.3vw;
         margin-left:20%;
       }  
-      .Ba{
+      .languages-options{
         font-size:3vw;
         margin-left:37%;
       } 
-      .C{
+      .Name{
         font-size:3.3vw;
         margin-left:30%;
       }  
-      .Ca{
+      .Name-box{
         font-size:3vw;
         margin-left:19%;
       }
-      .D{
+      .description{
         font-size:3.3vw;
         margin-left:25%;
         margin-right:0%;
       }
-      .Da{
+      .description-box{
         margin-left:18%;
       } 
       .submit{
@@ -213,28 +213,28 @@
           font-size:2.7vh;
           margin-top:25%;
         }
-     .B{
+     .languages{
          font-size:2.4vh;
          margin-left:21.5%;
     }
-    .Ba{
+    .languages-options{
       font-size:2vh;
       margin-left:36%;
     }  
-    .C{
+    .Name{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-    .Ca{
+    .Name-box{
       font-size:2vh;
       margin-left:21.5%;
     }
-    .D{
+    .description{
       font-size:2.4vh;
       margin-left:25.5%;
       margin-right:0%;
     }
-     .Da{
+     .description-box{
        font-size:1.5vh;
        margin-left:7%;
      } 
@@ -280,29 +280,29 @@
           font-size:2.7vh;
           margin-top:25%;
         }
-      .B{
+      .languages{
          font-size:2.4vh;
          margin-left:21.5%;
     }
-     .Ba{
+     .languages-options{
       font-size:2vh;
       margin-left:36%;
     }  
-    .C{
+    .Name{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-    .Ca{
+    .Name-box{
       font-size:2vh;
       margin-left:21.5%;
     }
-    .D{
+    .description{
       font-size:2.4vh;
       margin-left:25.5%;
       margin-right:0%;
     }
       
-    .Da{
+    .description-box{
        font-size:1.5vh;
        margin-left:5.5%;
      } 
@@ -350,7 +350,7 @@
           width:70%;
           margin-left:15%
         }
-      .B{
+      .languages{
          font-size:2.4vh;
          margin-left:22%;
     }
@@ -358,24 +358,24 @@
       width:70%;
       margin-left:15%;
     }
-    .Ba{
+    .languages-options{
       font-size:2vh;
       margin-left:36%;
     }  
-    .C{
+    .Name{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-    .Ca{
+    .Name-box{
       font-size:2vh;
       margin-left:22%;
     }
-    .D{
+    .description{
       font-size:2.4vh;
       margin-left:26%;
       margin-right:0%;
     }
-     .Da{
+     .description-box{
        font-size:1.5vh;
        margin-left:8%;
      } 
@@ -424,7 +424,7 @@
           width:80%;
           margin-left:10%
         }
-      .B{
+      .languages{
          font-size:2.4vh;
          margin-left:23%;
     }
@@ -432,25 +432,25 @@
       width:80%;
       margin-left:10%;
     }
-    .Ba{
+    .languages-options{
       font-size:2vh;
       margin-left:37%;
     }  
-    .C{
+    .Name{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-    .Ca{
+    .Name-box{
       font-size:2vh;
       margin-left:23%;
     }
-    .D{
+    .description{
       font-size:2.4vh;
       margin-left:26%;
       margin-right:0%;
     }
       
-     .Da{
+     .description-box{
        font-size:1.5vh;
        margin-left:9%;
      } 
@@ -499,7 +499,7 @@
           width:80%;
           margin-left:10%
         }
-     .B{
+     .languages{
          font-size:2.4vh;
          margin-left:21%;
     }
@@ -507,24 +507,24 @@
       width:80%;
       margin-left:10%;
     }
-    .Ba{
+    .languages-options{
       font-size:2vh;
       margin-left:36%;
     }  
-    .C{
+    .Name{
          font-size:2.4vh;
          margin-left:31%;
     }
-    .Ca{
+    .Name-box{
       font-size:2vh;
       margin-left:20.7%;
     }
-    .D{
+    .description{
       font-size:2.4vh;
       margin-left:25%;
       margin-right:0%;
     }
-     .Da{
+     .description-box{
        font-size:1.5vh;
        margin-left:6%;
      } 
@@ -574,7 +574,7 @@
           width:80%;
           margin-left:10%
         }
-      .B{
+      .languages{
          font-size:2.4vh;
          margin-left:26%;
     }
@@ -582,24 +582,24 @@
       width:80%;
       margin-left:10%;
     }
-      .Ba{
+      .languages-options{
       font-size:2vh;
       margin-left:38%;
     }  
-      .C{
+      .Name{
          font-size:2.4vh;
          margin-left:34.5%;
     }
-      .Ca{
+      .Name-box{
       font-size:2vh;
       margin-left:25.5%;
     }
-      .D{
+      .description{
       font-size:2.4vh;
       margin-left:30%;
       margin-right:0%;
     }
-      .Da{
+      .description-box{
        font-size:1.5vh;
        margin-left:13%;
      } 
@@ -648,7 +648,7 @@
           width:70%;
           margin-left:13%
         }
-       .B{
+       .languages{
          font-size:2.4vh;
          margin-left:22%;
     }
@@ -656,24 +656,24 @@
       width:70%;
       margin-left:13%;
     }
-       .Ba{
+       .languages-options{
       font-size:2vh;
       margin-left:36%;
     }  
-       .C{
+       .Name{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-       .Ca{
+       .Name-box{
       font-size:2vh;
       margin-left:22%;
     }
-       .D{
+       .description{
       font-size:2.4vh;
       margin-left:26%;
       margin-right:0%;
     }
-       .Da{
+       .description-box{
        font-size:1.5vh;
        margin-left:7%;
      } 
@@ -736,28 +736,28 @@
           width:90%;
           margin-left:4.7%;
         }
-        .B{
+        .languages{
          font-size:2.4vh;
          margin-left:21.5%;
     }
-       .Ba{
+       .languages-options{
       font-size:2vh;
       margin-left:36%;
     }  
-       .C{
+       .Name{
          font-size:2.4vh;
          margin-left:33.5%;
     }
-      .Ca{
+      .Name-box{
       font-size:2vh;
       margin-left:21.5%;
     }
-      .D{
+      .description{
       font-size:2.4vh;
       margin-left:25.5%;
       margin-right:0%;
     }
-     .Da{
+     .description-box{
        font-size:1.5vh;
        margin-left:7%;
      } 

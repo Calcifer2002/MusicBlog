@@ -122,7 +122,7 @@
           font-size: 1vw;
         }
 
-    /*RESPONSIVE PART*/
+    /*RESPONSIVE PART!*/
 
     @media screen and (min-width: 801px) and (max-width: 1100px){ 
       .header a:not(:first-child) {display: none;}

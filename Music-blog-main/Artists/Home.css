@@ -111,7 +111,7 @@
     }
 
 
-    @media screen and (min-width : 601px) and (max-width : 1100px) {
+    @media screen and (min-width : 801px) and (max-width : 1100px) {
       .header a:not(:first-child) {
         display: none;
       }
@@ -153,7 +153,7 @@
 
 
 
-    @media screen and (min-width : 601px) and (max-width : 1100px) {
+    @media screen and (min-width : 801px) and (max-width : 1100px) {
       .header.drop {
         position: relative;
       }
